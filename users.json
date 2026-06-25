@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "name": "Ankit Sen",
+      "email": "ankitsen123@gmail.com",
+      "salt": "5f528cef650c0c0997f8644d94bcfd1a",
+      "passwordHash": "e43c31c329bf3f9d6c55a1275f6fbf8cba0dbeb25d92455e3f7a8419c192508e912b79d2ccc55a20353086b44d1ba6ea8d7f49219d506d525ce2e3a3046a93f4",
+      "createdAt": "2026-06-25T10:17:09.055Z"
+    },
+    {
+      "name": "Ankit Sen",
+      "email": "soumalyajoardar12@gmail.com",
+      "salt": "14ca3809cbf787bda32e3be554615eb5",
+      "passwordHash": "b7a0f07c7331dd2ddb0804731f9ea39772c5a55ce8a0d9bc288b987cca7b980b323119228d3cadca09aa8cb9d4c7dee9b96e61480f7d057e814db1638ccf769b",
+      "createdAt": "2026-06-25T14:17:46.482Z"
+    }
+  ]
+}

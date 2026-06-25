@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Siliguri Government Polytechnic</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===================== NAVBAR ===================== -->
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="logo">
+      <img src="images/logo.png" alt="Siliguri Government Polytechnic logo" class="logo-img">
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#courses">Courses</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+
+    <div class="nav-right" id="navRight">
+      <button class="btn-auth" id="authTrigger" onclick="openModal('login')">Log In / Sign Up</button>
+      <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" id="home">
+  <div class="hero-content">
+    <span class="eyebrow">GOVERNMENT POLYTECHNIC INSTITUTE</span>
+    <h1>Siliguri Government Polytechnic</h1>
+    <p>Building the engineers, technicians, and problem-solvers of tomorrow — through hands-on labs, dedicated faculty, and industry-ready diploma programmes.</p>
+    <div class="hero-actions">
+      <a href="#courses" class="btn btn-solid">Browse Courses</a>
+      <a href="#contact" class="btn btn-outline">Contact Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== COURSES ===================== -->
+<section class="section courses" id="courses">
+  <div class="section-head">
+    <span class="eyebrow-dark">PROGRAMMES</span>
+    <h2>Diploma Courses We Offer</h2>
+    <p>Three-year, full-time diploma programmes across core engineering branches.</p>
+  </div>
+  <div class="courses-grid">
+    <div class="course-card">
+      <div class="course-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6" stroke-linejoin="round" stroke-linecap="round"/></svg>
+      </div>
+      <h3>Civil Engineering</h3>
+      <p>Structures, surveying, and construction management fundamentals.</p>
+    </div>
+    <div class="course-card">
+      <div class="course-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8Z" stroke-linejoin="round" stroke-linecap="round"/></svg>
+      </div>
+      <h3>Electrical Engineering</h3>
+      <p>Power systems, circuit design, and control fundamentals.</p>
+    </div>
+    <div class="course-card">
+      <div class="course-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8M12 17v4" stroke-linecap="round"/></svg>
+      </div>
+      <h3>Computer Science &amp; Technology</h3>
+      <p>Programming, networks, and applied computing skills.</p>
+    </div>
+    <div class="course-card">
+      <div class="course-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 12h-4l-3 9L9 3l-3 9H2" stroke-linejoin="round" stroke-linecap="round"/></svg>
+      </div>
+      <h3>Electronics &amp; Instrumentation Engineering</h3>
+      <p>Sensors, measurement systems, and process control basics.</p>
+    </div>
+    <div class="course-card">
+      <div class="course-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 13a10 10 0 0 1 14 0M8.5 16.5a5 5 0 0 1 7 0M12 20h.01" stroke-linejoin="round" stroke-linecap="round"/></svg>
+      </div>
+      <h3>Electronics &amp; Telecommunication Engineering</h3>
+      <p>Signal processing, communication systems, and networking basics.</p>
+    </div>
+    <div class="course-card">
+      <div class="course-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2 3 7h18L12 2Z" stroke-linejoin="round" stroke-linecap="round"/><path d="M3 22h18M6 18v-7M10 18v-7M14 18v-7M18 18v-7" stroke-linecap="round"/></svg>
+      </div>
+      <h3>Architecture</h3>
+      <p>Design thinking, drafting, and the basics of building planning.</p>
+    </div>
+    <div class="course-card">
+      <div class="course-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10.5 20.5 3.5 13.5a5 5 0 1 1 7-7l7 7a5 5 0 1 1-7 7Z" stroke-linejoin="round"/><path d="M8.5 8.5l7 7" stroke-linecap="round"/></svg>
+      </div>
+      <h3>Pharmacy</h3>
+      <p>Pharmaceutics, chemistry, and dispensing fundamentals.</p>
+    </div>
+  </div>
+
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section class="section" id="about">
+  <div class="about">
+    <div>
+      <span class="eyebrow-dark">ABOUT US</span>
+      <h2>Where practical skill meets steady guidance</h2>
+      <p style="color:var(--muted); margin-top:14px; font-size:15.5px;">
+        Siliguri Government Polytechnic focuses on enhancing students' knowledge, innovation, and technical skills. The institute offers seven diploma courses—five in Engineering & Technology, one in Architecture & Planning, and one in Pharmacy. Most courses are 3-year semester-based programs, while Pharmacy is a 2-year annual program. The intake is 60 students per course, except for Architecture Assistantship and Electrical Engineering, which have 30 seats each.
+      </p>
+      <div class="about-stats">
+        <div class="stat"><strong>7+</strong><span>Diploma Branches</span></div>
+        <div class="stat"><strong>1000+</strong><span>Students Trained</span></div>
+        <div class="stat"><strong>50+</strong><span>Faculty Members</span></div>
+        <div class="stat"><strong>20+</strong><span>Industry Partners</span></div>
+      </div>
+    </div>
+    <img src="images/about-image.jpeg" alt="Siliguri Government Polytechnic" class="about-art">
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section class="section contact" id="contact">
+  <div class="section-head">
+    <span class="eyebrow-dark">GET IN TOUCH</span>
+    <h2>Contact Us</h2>
+    <p>Have a question about admissions or courses? Reach out below.</p>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-info">
+      <h3>Visit or Reach Us</h3>
+      <div class="contact-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-6.1-7-11a7 7 0 1 1 14 0c0 4.9-7 11-7 11Z" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.5"/></svg>
+        <span>Dabgram, Siliguri, West Bengal, India, 734006</span>
+      </div>
+      <div class="contact-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8 10a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2Z" stroke-linejoin="round" stroke-linecap="round"/></svg>
+        <span>+91 99999 99999</span>
+      </div>
+      <div class="contact-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>sgp-helpdesk@gmail.com</span>
+      </div>
+      <div class="contact-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span>Mon – Sat, 10:00 AM – 4:00 PM</span>
+      </div>
+    </div>
+
+    <form class="contact-form" id="contactForm" onsubmit="submitContactForm(event)">
+      <div class="form-row">
+        <div class="field">
+          <label for="cName">Full Name</label>
+          <input id="cName" type="text" placeholder="Your name" required>
+        </div>
+        <div class="field">
+          <label for="cEmail">Email</label>
+          <input id="cEmail" type="email" placeholder="you@example.com" required>
+        </div>
+      </div>
+      <div class="field">
+        <label for="cSubject">Subject</label>
+        <input id="cSubject" type="text" placeholder="What's this about?">
+      </div>
+      <div class="field">
+        <label for="cMsg">Message</label>
+        <textarea id="cMsg" rows="4" placeholder="Write your message..." required></textarea>
+      </div>
+      <button type="submit" class="auth-submit">Send Message</button>
+      <div class="form-msg" id="contactMsg"></div>
+    </form>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <strong>Siliguri Government Polytechnic</strong>
+      <p style="margin-top:8px; font-size:13.5px; max-width:280px;">Skilled hands, steady minds — diploma education for the next generation of engineers.</p>
+    </div>
+    <div class="footer-links">
+      <a href="#home">Home</a>
+      <a href="#courses">Courses</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+  <p class="footer-bottom">&copy; <span id="year"></span> Siliguri Government Polytechnic. All rights reserved.</p>
+</footer>
+
+<!-- ===================== AUTH MODAL ===================== -->
+<div class="modal-backdrop" id="authModal" onclick="closeOnBackdrop(event)">
+  <div class="modal-card">
+    <button class="modal-close" onclick="closeModal()" aria-label="Close">&times;</button>
+
+    <div class="auth-tabs">
+      <button class="auth-tab active" id="loginTabBtn" onclick="switchAuthTab('login')">Log In</button>
+      <button class="auth-tab" id="signupTabBtn" onclick="switchAuthTab('signup')">Sign Up</button>
+    </div>
+
+    <!-- LOGIN -->
+    <form class="auth-form active" id="loginForm" onsubmit="handleLogin(event)">
+      <h2>Welcome back</h2>
+      <p class="sub">Log in to continue.</p>
+      <div class="field">
+        <label for="loginEmail">Email</label>
+        <input id="loginEmail" type="email" placeholder="you@example.com" required>
+      </div>
+      <div class="field">
+        <label for="loginPassword">Password</label>
+        <div class="pw-wrap">
+          <input id="loginPassword" type="password" placeholder="••••••••" required>
+          <button type="button" class="pw-toggle" onclick="togglePw('loginPassword', this)">SHOW</button>
+        </div>
+      </div>
+      <button type="submit" class="auth-submit">Log In</button>
+      <div class="form-msg" id="loginMsg"></div>
+    </form>
+
+    <!-- SIGNUP -->
+    <form class="auth-form" id="signupForm" onsubmit="handleSignup(event)">
+      <h2>Create an account</h2>
+      <p class="sub">It only takes a minute.</p>
+      <div class="field">
+        <label for="signupName">Full Name</label>
+        <input id="signupName" type="text" placeholder="Your name" required>
+      </div>
+      <div class="field">
+        <label for="signupEmail">Email</label>
+        <input id="signupEmail" type="email" placeholder="you@example.com" required>
+      </div>
+      <div class="field">
+        <label for="signupPassword">Password</label>
+        <div class="pw-wrap">
+          <input id="signupPassword" type="password" placeholder="At least 6 characters" required>
+          <button type="button" class="pw-toggle" onclick="togglePw('signupPassword', this)">SHOW</button>
+        </div>
+      </div>
+      <div class="field">
+        <label for="signupConfirm">Confirm Password</label>
+        <input id="signupConfirm" type="password" placeholder="Repeat password" required>
+      </div>
+      <button type="submit" class="auth-submit">Create Account</button>
+      <div class="form-msg" id="signupMsg"></div>
+    </form>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
